@@ -30,7 +30,7 @@ void setup()
   lcd.setCursor(2,0);
   lcd.print("Gibka v1.0");
   lcd.setCursor(2,1);
-  lcd.print("sp@krmts.ru");
+  lcd.print("---");
   ccw1 = EEPROM.read(0);
   ccw2 = EEPROM.read(1);
   ccw3 = EEPROM.read(2);
